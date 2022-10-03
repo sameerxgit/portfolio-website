@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+:root {
+  --primary-color:#be185d;
+  --off-white: #bec3c5;
+}
+html{
+  font-size: 70%;
+}
+@media(max-width:998px) {
+  html{
+    font-size: 65%;
+  }
+
+}
+@media (max-width:800px)
+{
+html{
+  font-size: 55%;
+}
+}
+
+@media (max-width:450px)
+{
+
+html{
+  font-size: 40%;
+}
+}
+
+body {
+  background-color:gainsboro;
+  font-family: "Montserrat", sans-serif;
+  margin:auto;
+  width: 100%;
+  }
+
+hr {
+  margin: 2rem 0rem;
+}
+
+.margin-md {
+  margin: 2rem;
+}
+
+/** container **/
+.container {
+  padding: 0rem 1rem;
+
+}
+
+.container-center {
+  max-width: 90rem;
+  width: 100%;
+  margin: auto;
+}
+
+/** links **/
+.link {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin-top: 2rem;
+
+}
+
+.link-primary {
+  max-width: 14rem;
+  padding: 0.6rem 1.2rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  margin: 1rem auto;
+  border-radius: 2rem;
+}
+
+.link-secondary {
+  max-width: 14rem;
+  margin: 1rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+/** lists **/
+
+.list-non-bullet {
+  list-style: none;
+  padding-inline-start: 0rem;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+
+}
+.margin-img{
+  margin-bottom:3rem;
+}
+
+/** navigation **/
+
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+
+}
+.nav-brand a {
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: white;
+  padding-left: 5rem;
+  padding-bottom:5rem;
+  
+}
+
+.navigation .nav-pills {
+  text-align: right;
+  margin: 0.6rem 1rem;
+}
+
+.navigation .link {
+  color: black;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+/** header **/
+
+.hero {
+  padding: 2rem;
+  padding-top: 5rem;
+}
+
+.hero .hero-img {
+  max-width: 80%;
+  width: 55rem;
+  display: block;
+  margin: auto;
+}
+
+.hero .hero-heading {
+  text-align: center;
+  padding-top: 1rem;
+  color:#be185d;
+}
+
+.hero .hero-heading .heading-inverted {
+  color:white;
+  
+}
+
+/** sections **/
+
+.section {
+  padding: 1.5rem;
+  margin: 6rem 0;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.section h1 {
+  text-align: center;
+ 
+}
+
+.ow {
+  background-color: var(--off-white);
+  border: 1px outset #be185d;
+}
+.pow{
+  border: 1px dashed #be185d;
+}
+.adjust-width{
+  max-width: 80%;
+}
+
+/** footers **/
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 1rem 0rem ;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+  border-top-left-radius:1rem ;
+  margin-top:1.4rem;
+ 
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer ul {
+  padding-inline-start: 0rem;
+}
+/**hover button**/
+.button{
+  background-color:white;
+  border: outset red;
+  color: yellow;
+  padding: 0.9rem 0.8rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 0.2rem 0.2rem;
+  border-radius: 0.8rem;
+  transition:ease-out 0.3s;
+  
+}
+.button:hover{
+  cursor: pointer;
+  background-color:#be185d;
+  color: red;
+}
+.blog-btn{
+    background-color:var(--off-white);
+  color:black;
+  border: inset red;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  border-radius: 0.8rem;
+  transition:ease-out 0.3s;
+  margin-bottom: 0.5rem;
+}
+.blog-btn:hover{
+  background-color:#be185d;
+  cursor: pointer;
+}
+
+/** blogs **/
+
+.showcase-blog {
+  padding-bottom: 6rem;
+}
+
+  .list-item-inline {
+    display: inline;
+    padding: 0.2rem;
+  }
+
+  .container-center {
+    width: auto;
+  }
+
+  .link-primary {
+    display: block;
+  }
